@@ -1,6 +1,6 @@
 # Created by: Nathan Araujo
 # Created on: Oct 19 2022
-# This program asks the user for their age, it then tells them if their allowed to vote in different countries
+# This program asks the user for their age, it then tells them if their allowed to vote in Canada, Austria and Bahrain
 
 import constants
 
@@ -15,9 +15,7 @@ def main():
         country_num = int(country_string)
     except Exception:
         print("Enter either 1, 2 or 3 for the countries")
-        play_again_string = input(
-            "To play again type 1 otherwise type any other number: "
-        )
+        play_again_string = input("To play again type 1 otherwise type any other number: ")
     else:
         if country_num < constants.NEGATIVE:
             print("Please enter a positive number")
