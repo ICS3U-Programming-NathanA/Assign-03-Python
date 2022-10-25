@@ -118,14 +118,14 @@ def main():
                         "To play again type 1 otherwise type any other number: "
                     )
 
-    # try catch to catch if they entered a string for the loop question
+        # try catch to catch if they entered a string for the loop question
     finally:
         try:
             play_again_num = int(play_again_string)
         except Exception:
             print("Please enter a number a whole number")
         else:
-            # An if statement to see if they entered 1
+                # An if statement to see if they entered 1
             if play_again_num == constants.YES:
                 main()
             else:
