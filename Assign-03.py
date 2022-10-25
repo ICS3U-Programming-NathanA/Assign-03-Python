@@ -15,7 +15,9 @@ def main():
         country_num = int(country_string)
     except Exception:
         print("Enter either 1, 2 or 3 for the countries")
-        play_again_string = input("To play again type 1 otherwise type any other number: ")
+        play_again_string = input(
+            "To play again type 1 otherwise type any other number: "
+        )
     else:
         if country_num < constants.NEGATIVE:
             print("Please enter a positive number")
