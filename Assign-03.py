@@ -1,6 +1,6 @@
 # Created by: Nathan Araujo
 # Created on: Oct 19 2022
-# This program asks the user for their age, it then tells them if their allowed to vote in Canada, Austria and Bahrain
+# This program asks the user for their age, it then tells them if their allowed to vote
 
 import constants
 
